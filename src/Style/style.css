@@ -1,0 +1,259 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap'); /*font import */
+
+body {
+    background-color: black; /* body style */
+    background-size: cover ;
+   
+    color: white;
+    background-image: url('stars and milkyway.svg');
+   
+    
+}
+
+h1 {
+  margin-bottom: 2cqb;   
+}
+
+.rotate{
+  transform: rotate(90deg); /* rotates the planet graphic found at the bottom of each info page from original vertical view */
+
+}
+
+.colors{
+  color: rgba(220, 2, 2, 1);  /* style guide for mars */
+  margin-top: 20px;
+
+  margin-top: 20px;
+  font-family: 'Lexend Giga', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.colorsn{
+  color: rgba(49, 25, 159, 1); /* style guide for neptune */
+  margin-top: 20px;
+
+  margin-top: 20px;
+  font-family: 'Lexend Giga', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.colorsu{
+  color: rgba(0, 77, 255, 1); /* style guide for uranus */
+  margin-top: 20px;
+
+  margin-top: 20px;
+  font-family: 'Lexend Giga', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.colorss{  
+  color: rgba(255, 225, 0, 1);   /* style guide for saturn */
+  margin-top: 20px;
+
+  margin-top: 20px;
+  font-family: 'Lexend Giga', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.colorsj{
+  color:rgba(197, 49, 255, 1);  /* style guide for jupiter */
+  margin-top: 20px;
+
+  margin-top: 20px;
+  font-family: 'Lexend Giga', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.colorsv{
+  color: rgba(234, 233, 232, 1);  /* style guide for venus */
+  margin-top: 20px;
+
+  margin-top: 20px;
+  font-family: 'Lexend Giga', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.colorsm{
+  color: rgba(255, 187, 0, 1);   /* style guide for mercury  */
+  margin-top: 20px;
+
+  margin-top: 20px;
+  font-family: 'Lexend Giga', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.colorsea{
+  
+  color:rgba(64, 255, 255, 1);  /* style guide for earth */
+  margin-top : 20px;
+
+  margin-top: 20px;
+  font-family: 'Lexend Giga', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+
+}
+  
+
+
+bodyabout {
+  background-color: black; /* style guide for about page   */
+  background-size: cover ;
+ 
+  color: white;
+  
+ 
+  
+}
+
+.card{
+    background-color:black;  /* card style guide */
+    
+
+}
+
+/* style guides below for each planets card (background for information)   */
+
+.card-large {
+  height: 800px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-largeMars {
+  height: 310px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 10, 10, 1);
+}
+
+.card-largeEarth {
+  height: 310px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(75, 255, 176, 1);
+  color: black;
+}
+.card-largeVenus {
+  height: 310px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(234, 233, 232, 1);
+  color: black;
+}
+.card-largeMercury {
+  height: 310px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 187, 0, 1);
+}
+.card-largeSaturn {
+  height: 310px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 225, 0, 1);
+  color: black
+}
+.card-largeNeptune {
+  height: 310px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color:  rgba(49, 25, 159, 1);
+}
+.card-largeJupiter {
+  height: 310px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(197, 49, 255, 1);
+}
+.card-largeUranus {
+  height: 310px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(0, 77, 255, 1);
+}
+
+/* style guide for <p> bodies of text */
+.p{
+  margin-top: 20px;
+  font-family: 'Lexend Giga', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* style guides below for the position of each planet on the home page */
+
+  .positioned-buttonr {
+    position: absolute;
+    top: 200px; 
+    right: 400px; 
+  }
+
+  .positioned-buttonp {
+    position: absolute;
+    top: 400px; 
+    right: 400px; 
+  }
+
+  .positioned-buttonb {
+    position: absolute;
+    top: 190px; 
+    right: 150px; 
+  }
+
+  .positioned-buttono {
+    position: absolute;
+    top: 200px; 
+    right: 760px; 
+  }
+
+  .positioned-buttondb {
+    position: absolute;
+    top: 470px; 
+    right: 100px; 
+  }
+
+  .positioned-buttonw {
+    position: absolute;
+    top: 450px; 
+    right: 750px; 
+  }
+
+  .positioned-buttony {
+    position: absolute;
+    top: 300px; 
+    right: 270px; 
+  }
+
+  .positioned-buttonea {
+    position: absolute;
+    top: 300px; 
+    right: 600px; 
+  }
+
+
+
+
+
+  
+
+
+
